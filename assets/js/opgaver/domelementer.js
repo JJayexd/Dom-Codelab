@@ -8,7 +8,13 @@ Du skal finde elementet med id="yellowFigure" og console logge det.
 */
 
 // din kode her
+document.getElementById('redFigure')
 
+    console.log('Element = redFigure')
+
+document.getElementById('yellowFigure')
+
+    console.log('Element = yellowFigure')
 
 /* opgave 1.2
 Du skal ændre baggrundsfarve på de to elementer du har fundet i opgave 1.1
@@ -17,6 +23,9 @@ farven på elementerne skal være blå. brug evt. elelement.style.backgroundColo
 
 
 // din kode her
+document.getElementById('redFigure').style.backgroundColor = 'blue'
+
+document.getElementById('yellowFigure').style.backgroundColor = 'blue'
 
 
 
@@ -28,7 +37,8 @@ Du skal oprette følgende HTML elementer i Elementet med id opgaveTwo.
 
 
 // din kode her
-
+document.createElement('h2').innerText = 'Opgave 2.1 løsning'
+document.createElement('p').innerText = 'Jeg har løst opgave 2.1'
 
 // opgave 3 liveHTML lists
 /* opgave 3.1
